@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -21,19 +23,25 @@ import com.kevinprograms.jla.ui.theme.primaryButtonColor
 
 @Composable
 fun HomeScreen(navController: NavController) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        contentAlignment = Alignment.Center
-
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
     ) {
-        Column {
-            StartLearnSessionButton(navController)
-            Spacer(modifier = Modifier.height(40.dp))
-            SettingsButton()
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            contentAlignment = Alignment.Center
+
+        ) {
+            Column {
+                StartLearnSessionButton(navController)
+                Spacer(modifier = Modifier.height(40.dp))
+                SettingsButton()
+            }
         }
     }
+
 }
 
 @Composable

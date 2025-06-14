@@ -46,7 +46,9 @@ import com.kevinprograms.jla.ui.viewmodel.KanjiViewModelFactory
 fun LearningScreen(navController: NavController) {
     val repository =KanjiRepositoryImpl(MyApp.database.kanjiDao())
     val kanjiViewModel: KanjiViewModel = viewModel(factory = KanjiViewModelFactory(repository))
-    Surface(modifier = Modifier.fillMaxSize(),color = MaterialTheme.colorScheme.background) {
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background) {
         Box(
             modifier = Modifier
                 .fillMaxSize()

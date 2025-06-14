@@ -3,6 +3,7 @@ package com.kevinprograms.jla.ui.theme
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
@@ -15,8 +16,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
-import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
 import com.kevinprograms.jla.R
+import android.view.Window
+import androidx.compose.ui.graphics.Color
+import androidx.core.view.WindowCompat
+import androidx.core.view.setPadding
+import androidx.core.view.WindowInsetsCompat.Type
 
 private val DarkColorScheme = darkColorScheme(
         primary = Purple80,
@@ -60,7 +66,17 @@ fun JapaneseLearningApplicationTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
+                window.decorView.setOnApplyWindowInsetsListener { view, insets ->
+                    val statusBarInsets = insets.getInsets(Type.statusBars())
+                    view.setBackgroundColor(statusBarColor.toArgb())
+                    view.setPadding(0, statusBarInsets.top, 0, 0)
+                    insets
+                }
+            } else {
+                window.statusBarColor = statusBarColor.toArgb()
+
+            }
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }
     }
