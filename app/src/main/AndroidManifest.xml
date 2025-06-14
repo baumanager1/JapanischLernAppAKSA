@@ -18,7 +18,8 @@
             android:name=".ui.screens.home.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.JapanischLernApp">
+            android:theme="@style/Theme.JapanischLernApp"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

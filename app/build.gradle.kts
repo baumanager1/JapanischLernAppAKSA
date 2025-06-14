@@ -2,13 +2,13 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    //Firebase
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
     //ksp
     id("com.google.devtools.ksp") version "2.1.21-2.0.1"
+    //Kapt
     kotlin("kapt")
-
-
 }
 
 android {
@@ -45,7 +45,9 @@ android {
         compose = true
     }
 }
-
+kapt {
+    correctErrorTypes = true
+}
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -85,3 +87,4 @@ dependencies {
     //Jetpack Compose Navigation
     implementation(libs.androidx.navigation.compose)
 }
+

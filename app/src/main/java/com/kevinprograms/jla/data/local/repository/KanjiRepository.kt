@@ -12,6 +12,7 @@ import com.kevinprograms.jla.data.mapper.KanjiJsonMapper
 import com.kevinprograms.jla.data.mapper.KanjiMeaningMapper
 import com.kevinprograms.jla.data.mapper.KanjiReadingMapper
 import com.kevinprograms.model.kanjiEntity.KanjiContainer
+import javax.inject.Inject
 
 interface IKanjiRepository {
     suspend fun getAllKanjiData() : List<Kanji>

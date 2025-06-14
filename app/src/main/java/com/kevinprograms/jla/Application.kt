@@ -32,15 +32,15 @@ class MyApp: Application() {
             "kanjidatabase.db",
         )
             .build()
-        CoroutineScope(Dispatchers.IO).launch {
-            val prefs = getSharedPreferences("app_prefs", MODE_PRIVATE)
-            val isPopulated = prefs.getBoolean("db_prepopulated", false)
-            if(!isPopulated) {
-                prepopulateDB()
-                prefs.edit { putBoolean("db_prepopulated", true) }
-            }
-        }
-    }   
+//        CoroutineScope(Dispatchers.IO).launch {
+//            val prefs = getSharedPreferences("app_prefs", MODE_PRIVATE)
+//            val isPopulated = prefs.getBoolean("db_prepopulated", false)
+//            if(!isPopulated) {
+//                prepopulateDB()
+//                prefs.edit { putBoolean("db_prepopulated", true) }
+//            }
+//        }
+    }
 
     private suspend fun prepopulateDB() {
         val jsonFiles = this.assets.list("KanjiJsonData") ?: arrayOf()

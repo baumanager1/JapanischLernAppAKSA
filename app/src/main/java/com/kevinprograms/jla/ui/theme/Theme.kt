@@ -1,4 +1,4 @@
-package com.example.jla.ui.theme
+package com.kevinprograms.jla.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -13,14 +13,10 @@ import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
 import androidx.core.view.WindowCompat
-import com.kevinprograms.jla.ui.theme.Pink40
-import com.kevinprograms.jla.ui.theme.Pink80
-import com.kevinprograms.jla.ui.theme.Purple40
-import com.kevinprograms.jla.ui.theme.Purple80
-import com.kevinprograms.jla.ui.theme.PurpleGrey40
-import com.kevinprograms.jla.ui.theme.PurpleGrey80
-import com.kevinprograms.jla.ui.theme.Typography
+import com.kevinprograms.jla.R
 
 private val DarkColorScheme = darkColorScheme(
         primary = Purple80,
@@ -74,4 +70,5 @@ fun JapaneseLearningApplicationTheme(
             typography = Typography,
             content = content
     )
+    val kanjiFont = FontFamily(Font(R.font.hiragino_kaku_gothic_pro_n))
 }

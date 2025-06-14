@@ -3,6 +3,7 @@ agp = "8.10.1"
 firebaseBom = "33.15.0"
 firebaseCore = "21.1.1"
 gson = "2.13.1"
+hiltAndroidCompiler = "2.56.2"
 kmapper = "0.36"
 kmapperCore = "0.2.1"
 kotlin = "2.1.21"
@@ -29,6 +30,7 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
 google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

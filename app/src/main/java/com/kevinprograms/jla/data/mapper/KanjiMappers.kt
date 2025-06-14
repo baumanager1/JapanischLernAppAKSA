@@ -22,10 +22,11 @@ interface KanjiJsonMapper {
     }
 }
 
-@Mapper
+@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE)
 interface KanjiMeaningMapper {
     @Mapping(target = "meaningId", ignore = true)
     @Mapping(target = "acceptedAnswer", source = "accepted")
+
     fun toMeaning(kanjiMeaning: com.kevinprograms.model.kanjiEntity.KanjiMeaning) : KanjiMeaning
 
 
