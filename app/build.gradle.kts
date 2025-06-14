@@ -4,6 +4,10 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
+    //ksp
+    id("com.google.devtools.ksp") version "2.1.21-2.0.1"
+    kotlin("kapt")
+
 
 }
 
@@ -61,9 +65,23 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    //firebase
+    //Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.core)
     implementation(libs.google.firebase.analytics)
 
+    //Room
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+
+    //Gson (Json Serializer)
+    implementation(libs.gson)
+
+    //Mapstruct Automatic Mapping with Symbol Processing(KAPT)
+    implementation(libs.mapstruct)
+    kapt(libs.mapstruct.processor)
+
+    //Jetpack Compose Navigation
+    implementation(libs.androidx.navigation.compose)
 }

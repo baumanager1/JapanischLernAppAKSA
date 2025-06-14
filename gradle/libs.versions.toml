@@ -1,23 +1,34 @@
 [versions]
-agp = "8.10.0"
-firebaseBom = "33.14.0"
+agp = "8.10.1"
+firebaseBom = "33.15.0"
 firebaseCore = "21.1.1"
-kotlin = "2.0.21"
+gson = "2.13.1"
+kmapper = "0.36"
+kmapperCore = "0.2.1"
+kotlin = "2.1.21"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.9.0"
+lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
-composeBom = "2024.09.00"
-firebaseCrashlyticsKtx = "19.4.3"
+composeBom = "2025.06.00"
+firebaseCrashlyticsKtx = "19.4.4"
+mapstruct = "1.5.5.Final"
+mapstructProcessor = "1.5.5.Final"
+roomRuntime = "2.7.1"
+navigation-compose="2.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
 google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -32,6 +43,11 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 firebase-crashlytics-ktx = { group = "com.google.firebase", name = "firebase-crashlytics-ktx", version.ref = "firebaseCrashlyticsKtx" }
+kmapper = { module = "com.github.ProjectMapK:KMapper", version.ref = "kmapper" }
+kmapper-core = { module = "io.github.ckorn.kmapper:kmapper-core", version.ref = "kmapperCore" }
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstructProcessor" }
+androidx-navigation-compose = {module = "androidx.navigation:navigation-compose", version.ref= "navigation-compose"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

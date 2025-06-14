@@ -1,12 +1,12 @@
-﻿[
+[
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1281,
-      "kanji": "造",
+      "id": 1248,
+      "kanji": "限",
       "meanings": [
         {
-          "meaning": "Create",
+          "meaning": "Limit",
           "primary": true,
           "accepted_answer": true
         }
@@ -15,13 +15,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "ぞう",
+          "reading": "げん",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "つく",
+          "reading": "かぎ",
           "accepted_answer": false
         }
       ]
@@ -32,11 +32,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1282,
-      "kanji": "授",
+      "id": 1249,
+      "kanji": "与",
       "meanings": [
         {
-          "meaning": "Instruct",
+          "meaning": "Give",
           "primary": true,
           "accepted_answer": true
         }
@@ -45,13 +45,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "じゅ",
+          "reading": "よ",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "さず",
+          "reading": "あた",
           "accepted_answer": false
         }
       ]
@@ -62,17 +62,12 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1283,
-      "kanji": "印",
+      "id": 1250,
+      "kanji": "含",
       "meanings": [
         {
-          "meaning": "Seal",
+          "meaning": "Include",
           "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Mark",
-          "primary": false,
           "accepted_answer": true
         }
       ],
@@ -80,155 +75,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "いん",
+          "reading": "がん",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "しるし",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1284,
-      "kanji": "創",
-      "meanings": [
-        {
-          "meaning": "Create",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "そう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1285,
-      "kanji": "復",
-      "meanings": [
-        {
-          "meaning": "Restore",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
           "reading": "ふく",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1286,
-      "kanji": "往",
-      "meanings": [
-        {
-          "meaning": "Journey",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Depart",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "おう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1287,
-      "kanji": "較",
-      "meanings": [
-        {
-          "meaning": "Contrast",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Compare",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "かく",
-          "accepted_answer": true
-        },
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "こう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1288,
-      "kanji": "筆",
-      "meanings": [
-        {
-          "meaning": "Writing Brush",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "ひつ",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "ふで",
           "accepted_answer": false
         }
       ]
@@ -239,11 +92,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1289,
-      "kanji": "鉛",
+      "id": 1251,
+      "kanji": "影",
       "meanings": [
         {
-          "meaning": "Lead",
+          "meaning": "Shadow",
           "primary": true,
           "accepted_answer": true
         }
@@ -252,13 +105,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "えん",
+          "reading": "えい",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "なまり",
+          "reading": "かげ",
           "accepted_answer": false
         }
       ]
@@ -269,11 +122,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1290,
-      "kanji": "貯",
+      "id": 1252,
+      "kanji": "況",
       "meanings": [
         {
-          "meaning": "Savings",
+          "meaning": "Condition",
           "primary": true,
           "accepted_answer": true
         }
@@ -282,13 +135,77 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "ちょ",
+          "reading": "きょう",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1253,
+      "kanji": "渡",
+      "meanings": [
+        {
+          "meaning": "Transit",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "と",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": true,
+          "reading": "わた",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1254,
+      "kanji": "響",
+      "meanings": [
+        {
+          "meaning": "Echo",
+          "primary": true,
+          "accepted_answer": true
+        },
+        {
+          "meaning": "Reverberation",
+          "primary": false,
+          "accepted_answer": true
+        },
+        {
+          "meaning": "Resound",
+          "primary": false,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "きょう",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "たくわ",
+          "reading": "ひび",
           "accepted_answer": false
         }
       ]
@@ -299,17 +216,12 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1291,
-      "kanji": "故",
+      "id": 1255,
+      "kanji": "票",
       "meanings": [
         {
-          "meaning": "Circumstance",
+          "meaning": "Ballot",
           "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Reason",
-          "primary": false,
           "accepted_answer": true
         }
       ],
@@ -317,13 +229,103 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "こ",
+          "reading": "ひょう",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1256,
+      "kanji": "景",
+      "meanings": [
+        {
+          "meaning": "Scene",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "けい",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1257,
+      "kanji": "抜",
+      "meanings": [
+        {
+          "meaning": "Extract",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "ばつ",
+          "accepted_answer": false
+        },
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "はつ",
+          "accepted_answer": false
+        },
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "はい",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": true,
+          "reading": "ぬ",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1258,
+      "kanji": "訴",
+      "meanings": [
+        {
+          "meaning": "Sue",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "そ",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "ゆえ",
+          "reading": "うった",
           "accepted_answer": false
         }
       ]
@@ -334,11 +336,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1292,
-      "kanji": "障",
+      "id": 1259,
+      "kanji": "訟",
       "meanings": [
         {
-          "meaning": "Hinder",
+          "meaning": "Lawsuit",
           "primary": true,
           "accepted_answer": true
         }
@@ -349,11 +351,59 @@
           "primary": true,
           "reading": "しょう",
           "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1260,
+      "kanji": "逮",
+      "meanings": [
+        {
+          "meaning": "Apprehend",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "たい",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1261,
+      "kanji": "補",
+      "meanings": [
+        {
+          "meaning": "Supplement",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "ほ",
+          "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "さわ",
+          "reading": "おぎな",
           "accepted_answer": false
         }
       ]
@@ -364,21 +414,21 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1293,
-      "kanji": "従",
+      "id": 1262,
+      "kanji": "候",
       "meanings": [
         {
-          "meaning": "Obey",
+          "meaning": "Climate",
           "primary": true,
           "accepted_answer": true
         },
         {
-          "meaning": "Accompany",
+          "meaning": "Weather",
           "primary": false,
           "accepted_answer": true
         },
         {
-          "meaning": "Follow",
+          "meaning": "Candidate",
           "primary": false,
           "accepted_answer": true
         }
@@ -387,433 +437,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "じゅう",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "したが",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1294,
-      "kanji": "我",
-      "meanings": [
-        {
-          "meaning": "I",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Me",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "が",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "われ",
-          "accepted_answer": false
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "わ",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1295,
-      "kanji": "激",
-      "meanings": [
-        {
-          "meaning": "Fierce",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Violent",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "げき",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "はげ",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1296,
-      "kanji": "刺",
-      "meanings": [
-        {
-          "meaning": "Stab",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "し",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "さ",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1297,
-      "kanji": "励",
-      "meanings": [
-        {
-          "meaning": "Encourage",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "れい",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "はげ",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1298,
-      "kanji": "討",
-      "meanings": [
-        {
-          "meaning": "Chastise",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "とう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1299,
-      "kanji": "郵",
-      "meanings": [
-        {
-          "meaning": "Mail",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Post",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "ゆう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1300,
-      "kanji": "針",
-      "meanings": [
-        {
-          "meaning": "Needle",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "しん",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "はり",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1301,
-      "kanji": "徴",
-      "meanings": [
-        {
-          "meaning": "Indication",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Sign",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "ちょう",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1302,
-      "kanji": "怪",
-      "meanings": [
-        {
-          "meaning": "Suspicious",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "かい",
-          "accepted_answer": true
-        },
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "け",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "あや",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1303,
-      "kanji": "獣",
-      "meanings": [
-        {
-          "meaning": "Beast",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Animal",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "じゅう",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "けもの",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1304,
-      "kanji": "突",
-      "meanings": [
-        {
-          "meaning": "Stab",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Thrust",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "とつ",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "つ",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1305,
-      "kanji": "菓",
-      "meanings": [
-        {
-          "meaning": "Cake",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "か",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1306,
-      "kanji": "河",
-      "meanings": [
-        {
-          "meaning": "River",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "か",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "かわ",
-          "accepted_answer": false
-        },
-        {
-          "type": "nanori",
-          "primary": false,
           "reading": "こう",
-          "accepted_answer": false
+          "accepted_answer": true
         },
         {
-          "type": "nanori",
+          "type": "kunyomi",
           "primary": false,
-          "reading": "こお",
+          "reading": "そうろう",
           "accepted_answer": false
         }
       ]
@@ -824,16 +454,16 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1307,
-      "kanji": "振",
+      "id": 1263,
+      "kanji": "構",
       "meanings": [
         {
-          "meaning": "Shake",
+          "meaning": "Set Up",
           "primary": true,
           "accepted_answer": true
         },
         {
-          "meaning": "Wave",
+          "meaning": "Care",
           "primary": false,
           "accepted_answer": true
         }
@@ -842,13 +472,13 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "しん",
+          "reading": "こう",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "ふ",
+          "reading": "かま",
           "accepted_answer": false
         }
       ]
@@ -859,76 +489,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1308,
-      "kanji": "汗",
+      "id": 1264,
+      "kanji": "模",
       "meanings": [
         {
-          "meaning": "Sweat",
-          "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": false,
-          "reading": "かん",
-          "accepted_answer": false
-        },
-        {
-          "type": "kunyomi",
-          "primary": true,
-          "reading": "あせ",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1309,
-      "kanji": "豚",
-      "meanings": [
-        {
-          "meaning": "Pork",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Pig",
-          "primary": false,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": false,
-          "reading": "とん",
-          "accepted_answer": false
-        },
-        {
-          "type": "kunyomi",
-          "primary": true,
-          "reading": "ぶた",
-          "accepted_answer": true
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1310,
-      "kanji": "再",
-      "meanings": [
-        {
-          "meaning": "Again",
+          "meaning": "Imitation",
           "primary": true,
           "accepted_answer": true
         }
@@ -937,20 +502,14 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "さ",
+          "reading": "も",
           "accepted_answer": true
         },
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "さい",
+          "reading": "ぼ",
           "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "ふたた",
-          "accepted_answer": false
         }
       ]
     },
@@ -960,11 +519,11 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1311,
-      "kanji": "接",
+      "id": 1265,
+      "kanji": "捕",
       "meanings": [
         {
-          "meaning": "Adjoin",
+          "meaning": "Catch",
           "primary": true,
           "accepted_answer": true
         }
@@ -973,13 +532,19 @@
         {
           "type": "onyomi",
           "primary": true,
-          "reading": "せつ",
+          "reading": "ほ",
           "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "つ",
+          "reading": "つか",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "とら",
           "accepted_answer": false
         }
       ]
@@ -990,47 +555,12 @@
   {
     "KanjiJson": {
       "lessonNumber": 25,
-      "id": 1312,
-      "kanji": "独",
+      "id": 1266,
+      "kanji": "鮮",
       "meanings": [
         {
-          "meaning": "Alone",
+          "meaning": "Fresh",
           "primary": true,
-          "accepted_answer": true
-        }
-      ],
-      "readings": [
-        {
-          "type": "onyomi",
-          "primary": true,
-          "reading": "どく",
-          "accepted_answer": true
-        },
-        {
-          "type": "kunyomi",
-          "primary": false,
-          "reading": "ひと",
-          "accepted_answer": false
-        }
-      ]
-    },
-    "Meaning": null,
-    "Reading": null
-  },
-  {
-    "KanjiJson": {
-      "lessonNumber": 25,
-      "id": 1313,
-      "kanji": "占",
-      "meanings": [
-        {
-          "meaning": "Fortune",
-          "primary": true,
-          "accepted_answer": true
-        },
-        {
-          "meaning": "Occupy",
-          "primary": false,
           "accepted_answer": true
         }
       ],
@@ -1044,14 +574,493 @@
         {
           "type": "kunyomi",
           "primary": false,
-          "reading": "うらな",
+          "reading": "あざ",
           "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1267,
+      "kanji": "効",
+      "meanings": [
+        {
+          "meaning": "Effective",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "こう",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "き",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1268,
+      "kanji": "属",
+      "meanings": [
+        {
+          "meaning": "Belong",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "ぞく",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1269,
+      "kanji": "慣",
+      "meanings": [
+        {
+          "meaning": "Accustomed",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "かん",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "な",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1270,
+      "kanji": "豊",
+      "meanings": [
+        {
+          "meaning": "Plentiful",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "ほう",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "ゆた",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1271,
+      "kanji": "満",
+      "meanings": [
+        {
+          "meaning": "Full",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "まん",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "み",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1272,
+      "kanji": "肥",
+      "meanings": [
+        {
+          "meaning": "Obese",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "ひ",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "こ",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "こえ",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1273,
+      "kanji": "巻",
+      "meanings": [
+        {
+          "meaning": "Scroll",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "かん",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "ま",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1274,
+      "kanji": "捜",
+      "meanings": [
+        {
+          "meaning": "Search",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "そう",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "さが",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1275,
+      "kanji": "絞",
+      "meanings": [
+        {
+          "meaning": "Strangle",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "こう",
+          "accepted_answer": true
         },
         {
           "type": "kunyomi",
           "primary": false,
           "reading": "し",
           "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "しぼ",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1276,
+      "kanji": "輩",
+      "meanings": [
+        {
+          "meaning": "Comrade",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "はい",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1277,
+      "kanji": "隠",
+      "meanings": [
+        {
+          "meaning": "Hide",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "いん",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "かく",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1278,
+      "kanji": "掛",
+      "meanings": [
+        {
+          "meaning": "Hang",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "かい",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": true,
+          "reading": "か",
+          "accepted_answer": true
+        },
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "けい",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1279,
+      "kanji": "替",
+      "meanings": [
+        {
+          "meaning": "Replace",
+          "primary": true,
+          "accepted_answer": true
+        },
+        {
+          "meaning": "Exchange",
+          "primary": false,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "たい",
+          "accepted_answer": false
+        },
+        {
+          "type": "kunyomi",
+          "primary": true,
+          "reading": "か",
+          "accepted_answer": true
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 1280,
+      "kanji": "居",
+      "meanings": [
+        {
+          "meaning": "Alive",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "きょ",
+          "accepted_answer": true
+        },
+        {
+          "type": "kunyomi",
+          "primary": false,
+          "reading": "い",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 8860,
+      "kanji": "捉",
+      "meanings": [
+        {
+          "meaning": "Catch",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "kunyomi",
+          "primary": true,
+          "reading": "とら",
+          "accepted_answer": true
+        },
+        {
+          "type": "onyomi",
+          "primary": false,
+          "reading": "そく",
+          "accepted_answer": false
+        }
+      ]
+    },
+    "Meaning": null,
+    "Reading": null
+  },
+  {
+    "KanjiJson": {
+      "lessonNumber": 25,
+      "id": 9028,
+      "kanji": "莫",
+      "meanings": [
+        {
+          "meaning": "Endless",
+          "primary": true,
+          "accepted_answer": true
+        }
+      ],
+      "readings": [
+        {
+          "type": "onyomi",
+          "primary": true,
+          "reading": "ばく",
+          "accepted_answer": true
         }
       ]
     },

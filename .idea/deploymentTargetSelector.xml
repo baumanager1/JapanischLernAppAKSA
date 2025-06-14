@@ -4,10 +4,21 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-05-26T21:17:15.792056100Z">
+        <DropdownSelection timestamp="2025-06-12T08:49:41.437117200Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="Default" identifier="serial=192.168.1.212:43025;connection=3ab376d2" />
+              <DeviceId pluginId="Default" identifier="serial=100.106.3.113:46355;connection=bbe18413" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="DbExportTest">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-06-13T23:34:13.563448200Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="Default" identifier="serial=192.168.1.212:37861;connection=4ef6e049" />
             </handle>
           </Target>
         </DropdownSelection>
