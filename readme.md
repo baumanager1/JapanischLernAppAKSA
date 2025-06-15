@@ -420,7 +420,7 @@ var currentKanji: String = ""
 Dieser mutableStateOf sorgt dafür, dass die UI automatisch aktualisiert wird, wenn sich der Wert geändert hat.
 
 ### 4.3 Dependency Injection mit Hilt
-Da ich die MVVM Architektur verwende, habe ich für Funktionen oft das viewModel gebraucht. da jedoch verschiedene Screens als Funktion und nicht als Klasse definiert werden und ich für jeden Screen eine eigene Datei zur klareren Trennung haben wollte, musste ich das ViewModel immer als Parameter in Funktionen schreiben. Um dies zu verhinden, ist es laut Microsoft Copilot möglich, Hilt als Dependency Injection Library zu verwenden. Dann muss ich nur jeweils eine bestimmte Funktion aufrufen und das Viewmodel ist da, ich müsste es nicht mehr durch Parameter an Funktionen weitergeben.
+Da ich die MVVM (Model-View-ViewModel) Architektur verwende, habe ich für Funktionen oft das viewModel gebraucht. da jedoch verschiedene Screens als Funktion und nicht als Klasse definiert werden und ich für jeden Screen eine eigene Datei zur klareren Trennung haben wollte, musste ich das ViewModel immer als Parameter in Funktionen schreiben. Um dies zu verhinden, ist es laut Microsoft Copilot möglich, Hilt als Dependency Injection Library zu verwenden. Dann muss ich nur jeweils eine bestimmte Funktion aufrufen und das Viewmodel ist da, ich müsste es nicht mehr durch Parameter an Funktionen weitergeben.
 Ich habe versucht Hilt zu implementieren. Jedoch habe ich beim Buildprozess mit Gradle die Fehlermeldung erhalten, dass mein Buildsystem korrupt ist. dann habe ich gelesen dass ich die 1.8 der Java VirtualMachine verwenden soll und nicht die 1.11. Jedoch habe ich beim Verwenden von 1.8 die Fehlermeldung erhalten, dass diese veraltet ist, ich konnte das Projekt auch da nicht bauen. Am Ende habe ich es einfach so gelassen und Hilt wieder entfernt.
 
 ## 5. Resultate
@@ -469,7 +469,10 @@ Ich denke jedoch, dass die App visuell gut gestaltet ist und einen Mehrwert brin
 Der Code befindet sich auf Github unter folgendem Link:
 https://github.com/baumanager1/JapanischLernAppAKSA
 
-## 8. Quellen
+## 8. Bemerkungen
+
+MVVM Architektur: MVVM steht für Model-View-ViewModel. Dabei wird der Code aufgeteilt. In Model schreibt man den Code bezüglich Datenbank/Api oder Netzwerkabfragen, in meinem Beispiel die Datenbank. View steht für das was der Benutzer sieht, das UI. Das ViewModel hingegen arbeitet als Vermittler zwischen der View und dem Model. So ist der Code um Daten aus der Datenbank zu lesen getrennt vom Code der sich nur um die Darstellung der Benutzeroberfläche kümmert.
+## 9. Quellen
 (1) https://www.japandict.com/kanji/%E7%97%85  
 (2) https://www.japandict.com/kanji/%E4%B8%8A?lang=  
 (3) https://jakobsjapanisch.de/artikel/hiragana-tabelle/
