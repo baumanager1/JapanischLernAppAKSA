@@ -12,6 +12,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.kevinprograms.jla.ui.screens.home.HomeScreen
+import com.kevinprograms.jla.ui.screens.learnSessionOverviewScreen.LearnSessionOverviewScreen
 import com.kevinprograms.jla.ui.screens.learningScreen.LearningScreen
 
 @Composable
@@ -19,12 +20,14 @@ fun AppNavigation() {
     val navController = rememberNavController()
     Surface(
         modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background)
+        color = MaterialTheme.colorScheme.background
+    )
     {
         NavHost(navController = navController, startDestination = "home") {
-            composable("home") { HomeScreen(navController)  }
-            composable("LearnSession") { LearningScreen(navController)  }
+            composable("home") { HomeScreen(navController) }
+            composable("LearnSession") { LearningScreen(navController) }
+            composable("LearnSessionOverview") { LearnSessionOverviewScreen(navController) }
+
         }
     }
-
 }

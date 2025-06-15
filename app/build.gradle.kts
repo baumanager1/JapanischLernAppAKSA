@@ -87,5 +87,8 @@ dependencies {
 
     //Jetpack Compose Navigation
     implementation(libs.androidx.navigation.compose)
+
+    //RomajiKanaParser
+    implementation(project(":romajiKanaParser"))
 }
 

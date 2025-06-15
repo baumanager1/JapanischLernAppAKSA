@@ -19,3 +19,6 @@ val primaryButtonColor = Color.Blue
 
 // StatusBar Color
 val statusBarColor = darkBlueGray
+
+val readingBackground = Pink40
+val meaningBackground = Pink80

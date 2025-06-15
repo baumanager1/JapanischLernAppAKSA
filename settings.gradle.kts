@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "jla"
 include(":app")
+include(":romajiKanaParser")

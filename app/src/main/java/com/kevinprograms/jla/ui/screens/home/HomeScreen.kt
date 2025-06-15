@@ -41,7 +41,6 @@ fun HomeScreen(navController: NavController) {
             }
         }
     }
-
 }
 
 @Composable

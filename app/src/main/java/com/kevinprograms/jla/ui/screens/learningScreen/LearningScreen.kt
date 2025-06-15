@@ -18,6 +18,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -25,12 +26,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -38,6 +41,8 @@ import androidx.navigation.NavController
 import com.kevinprograms.jla.MyApp
 import com.kevinprograms.jla.data.local.repository.KanjiRepositoryImpl
 import com.kevinprograms.jla.ui.theme.kanjiFont
+import com.kevinprograms.jla.ui.theme.meaningBackground
+import com.kevinprograms.jla.ui.theme.readingBackground
 import com.kevinprograms.jla.ui.viewmodel.KanjiViewModel
 import com.kevinprograms.jla.ui.viewmodel.KanjiViewModelFactory
 
@@ -46,9 +51,22 @@ import com.kevinprograms.jla.ui.viewmodel.KanjiViewModelFactory
 fun LearningScreen(navController: NavController) {
     val repository =KanjiRepositoryImpl(MyApp.database.kanjiDao())
     val kanjiViewModel: KanjiViewModel = viewModel(factory = KanjiViewModelFactory(repository))
+    val currentAnswerMode = kanjiViewModel.currentAnswerMode
+    val backgroundColor = if(currentAnswerMode == KanjiViewModel.AnswerModeType.MEANING)
+        meaningBackground
+    else
+        readingBackground
+    val navigateEvent = kanjiViewModel.navigateEvent.collectAsState(initial = null)
+
+    LaunchedEffect(navigateEvent.value) {
+        navigateEvent.value?.let { route ->
+            navController.navigate(route)
+        }
+    }
+
     Surface(
         modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background) {
+        color = backgroundColor) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -112,9 +130,27 @@ fun CorrectionText(kanjiViewModel: KanjiViewModel) {
 
 @Composable
 fun AnswerInputField(kanjiViewModel: KanjiViewModel) {
-    TextField(value =kanjiViewModel.userAnswer, onValueChange = { newText -> kanjiViewModel.onAnswerInputChanged(newText)
-    },
-        label = { Text(text = "Answer")},
+    val fontSize = if (kanjiViewModel.currentAnswerMode == KanjiViewModel.AnswerModeType.MEANING) {
+        16.sp
+    } else {
+        22.sp
+    }
+    val answerLabelText = if (kanjiViewModel.currentAnswerMode == KanjiViewModel.AnswerModeType.MEANING) {
+        "Answer"
+    } else {
+        "答え"
+    }
+
+    TextField(
+        value =kanjiViewModel.userAnswer,
+        onValueChange = { newText -> kanjiViewModel.onAnswerInputChanged(newText) },
+        label = {
+            Text(
+            text = answerLabelText,
+            fontSize = fontSize
+            )
+        },
+        textStyle = TextStyle(fontSize = 30.sp),
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text, imeAction = ImeAction.Go),
         visualTransformation = VisualTransformation.None,
         keyboardActions = KeyboardActions(
